@@ -1,0 +1,146 @@
+@CHARSET "UTF-8";
+
+@font-face {
+	font-family: 'THEjunggt';
+	src: url(THEjunggt130.ttf) format('truetype');
+}
+
+body {
+	background: url('background.jpg') no-repeat center top;
+	background-color: black;
+	background-attachment: fixed;
+	font-family: THEjunggt;
+}
+a { text-decoration: none; color: white; }
+a.menu { text-decoration: none; color: white; }
+a.title { text-decoration: none; color: #FF8000; }
+
+#title {
+	margin: auto;
+	width: 400px;
+	height: 100px;
+	font-size: 50px;
+	text-align: center;
+	transition-duration: 0.3s;
+	text-shadow: 1.5px 1.5px white;
+	line-height: 190%;
+	border-radius: 50px;
+}
+#title:hover {
+	background: rgba(255,203,115,0.5);
+}
+
+#main {
+	position: relative;
+	margin: 20px auto;
+	width: 1200px;
+}
+#content {
+	margin-left: 300px;
+	background: white;
+	width: 900px;
+}
+#containedtitle {
+	background: #FF7E00;
+	height: 110px;
+	line-height: 140%;
+	transition-duration: 0.2s;
+	padding: 5px;
+}
+#containedtitle:hover {
+	height: 140px;
+	line-height: 210%;
+}
+#containedtext{
+	padding: 30px;
+}
+
+#sidemenu {
+	background-color: rgba(43, 43, 43, 0.8);
+	position: absolute;
+	border: 3px solid #FF7E00;
+	top: 0px; left: 0px;
+	width: 260px;
+	padding: 10px;
+	color: white;
+
+}
+
+#subtitle {
+	border: 4px solid #70AD47;
+	width: 40%;
+	height: 50px;
+	color: gray;
+	text-align: center;
+	line-height: 250%;
+}
+
+#neyong {
+	border: 4px solid #70AD47;
+}
+
+.head {
+	margin: 5px;
+	height: 278.5px;
+}
+.games {
+	border: 4px solid #70AD47;
+	padding: 4px;
+	margin: 4px 0px;
+	color: gray;
+}
+.video {
+	width: 60%;
+	float: left;
+}
+.description {
+	width: 38%;
+	float: right;
+}
+.body {
+	padding: 20px;
+}
+
+table.timetable {
+	width: 100%;
+	color: gray;
+}
+
+li.first {
+	list-style-type: square;
+	font-weight: bold;
+}
+li.second {
+	list-style-type: none;
+}
+a.second:hover{
+	color: #FF7E00;
+}
+
+div.menu {
+	position: fixed;
+	right: 0px;
+	width: 80px; height: 49px;
+	background: #FF7E00;
+	border: 1px solid #FFDD00;
+	transition-duration: 0.3s;
+	line-height: 50px;
+	text-align: center;
+}
+div.menu:hover {
+	width: 120px;
+	background: #FF5000;
+	font-size: 25px;
+}
+div.youtube:hover {
+	background: #E62117;
+}
+div.inha:hover {
+	background: #1B609A;
+}
+div.google:hover {
+	background: #4285F4;
+}
+div.naver:hover {
+	background: #03CF5D;
+}
